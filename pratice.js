@@ -115,6 +115,7 @@ document.write("<tr>");
 // fib2 (3) = tmp (5) // == fib1 (3) fib2 (5) tmp (5)
 */
 
+/*
 document.write("<h3> 책 주문 입력 내용 </h3>");
 
 var book1 = "IT: 컴퓨터와 IT기술의 이해";
@@ -143,63 +144,20 @@ else {
 
 document.write("[" + (i+1) + "]" + title + "<br/>"); // 결과창 [숫자] 값만 영향을 줌 
 }
+*/
 
+document.write("<tr>");
+document.write("<td> value </td>");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+fib1 = 1;
+fib2 = 1;
+do{
+    document.write("<td>");
+    document.write(fib2);
+    document.write("</td>");
+    tmp = fib1 + fib2;
+    fib1 = fib2;
+    fib2 = tmp;
+} while ( fib2<1000)
+document.write("</tr>")
 
