@@ -220,6 +220,7 @@ var book_arr2 = ["멀티미디어 배움터2.0", "생능출판사", "최윤철, 
 var arr100 = new Array(100); // 요소 개수가 100인 배열 생성 
 */
 
+/*
 // array배열 2 
 var arr = new Array("one", 2, "3", 4, "five");
 
@@ -247,6 +248,51 @@ document.write("length of array: " + arr.length + "<br/>");
 arr[100] = 100;
 document.write("arr[" + 100 + "]:" + arr[100] + "<br/>");
 document.write("length of array : " + arr.length + "<br/>");
+*/
+
+function print_array(a, name) 
+{
+    document.write("size of array: " + a.length + "<br/>");
+    for(i=0;i<a.length;i++)
+     {
+        document.write(name + "[" + i + "]: ");
+        if(typeof(a[i]) == "string")
+        document.write("\"" + a[i] + "\" <br/>");
+        else 
+        document.write(a[i] + " <br/>");
+    }
+}
+
+var arr = new Array("zero", "one", 3, "25");
+
+document.write("Original Array : <br/>");
+print_array(arr, "arr");
+
+arr.reverse();
+document.write("<br/> After reverse: <br/>");
+print_array(arr, "arr");
+
+var str = arr.join(" = ");
+document.write("<br/> after join: <br/>");
+document.write("str: \"" + str + "\"<br/>");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
