@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+     h2{width: 250px;
+    }
+     label{ display: block; width: 100%;  font-size: 15px; line-height: 16px;}
+     button{ border-radius: 6px; margin-bottom: 12px; font-size: 17px;}
+     input { border-radius: 6px; margin-bottom: 12px; font-size: 17px;}
+     fieldset{width: 500px;display: flex;}
+     html { font-size: 14px;}
+     legend{font-size: 20px;}
+     span{font-size: 15px;line-height: 20px;}
+     body {   width: 100%; height: 100vh;  display: flex;  justify-content: center;  align-items: center;  align-content: center;
+     }
+ </style>
+</head>
+<body>
+    <fieldset>
+        <legend>회원가입</legend>
+        <form action="과제3.html" method="post">
+        <h2>추가정보</h2>
+       <label for="이름">비밀번호 복구</label>
+       <input type="text" name="book" list="title" placeholder="선택">
+            <datalist id="title">
+                <option value="어릴적 다닌 초등학교 이름은?"></option>
+                <option value="내가 태어난 고향은?"></option>
+                <option value="아버지의 성함은?"></option>
+            </datalist>
+        <input type="text" name=" 답변" placeholder="답변">
+       <label for="취미">취미 2가지를 선택</label>
+      <input type="checkbox" name="취미" value="운동">운동
+      <input type="checkbox" name="취미"value="게임">게임
+      <input type="checkbox" name="취미" value="티비시청"> tv시청
+      <input type="checkbox" name="취미" value="코드짜기"> 코딩
+      <input type="checkbox" name="취미" value="독서"> 독서
+       <label for="좋아하는 장르">좋아하는 장르 2가지를 선택</label>
+       <input type="checkbox" name="장르" value="스포츠"> 스포츠
+       <input type="checkbox" name="장르" value="역사"> 역사
+       <input type="checkbox" name="장르" value="전쟁"> 전쟁
+       <input type="checkbox" name="장르" value="경제"> 경제
+       <input type="checkbox" name="장르" value="정치"> 정치
+
+       <label for="확인">어떤 경로로 찾아오셨나요?</label>
+       <input type="checkbox" name="경로" value="포털"> 포털사이트
+       <input type="checkbox" name="경로" value="sns"> SNS
+       <input type="checkbox" name="경로" value="커뮤니티"> 커뮤니티
+       <input type="checkbox" name="경로" value="주변인"> 주변인
+       <input type="checkbox" name="경로" value="우연히"> 우연히
+    <label for="url">운영하고있는 블로그 url(선택)</label>
+   <input type="url" name="url" placeholder="https://....com">
+   <label for="사람">당신은 사람입니까?</label>
+   <input type="radio" name="인증" value="yes"> 예  <input type="radio" name="인증" value="no"> 아니오 <br>
+        <input type="submit" value="다음"> <input type="reset" value="리셋">
+  </form>
+</body>
+</html>

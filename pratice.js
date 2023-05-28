@@ -249,7 +249,7 @@ arr[100] = 100;
 document.write("arr[" + 100 + "]:" + arr[100] + "<br/>");
 document.write("length of array : " + arr.length + "<br/>");
 */
-
+/*
 function print_array(a, name) 
 {
     document.write("size of array: " + a.length + "<br/>");
@@ -257,9 +257,9 @@ function print_array(a, name)
      {
         document.write(name + "[" + i + "]: ");
         if(typeof(a[i]) == "string")
-        document.write("\"" + a[i] + "\" <br/>");
+        document.write("\"" + a[i] + "\" <br/>"); // string 이면 arr[숫자]+"인덱스" 출력 
         else 
-        document.write(a[i] + " <br/>");
+        document.write(a[i] + " <br/>"); // string이 아니면 arr[숫자]+인덱스 출력
     }
 }
 
@@ -272,25 +272,69 @@ arr.reverse();
 document.write("<br/> After reverse: <br/>");
 print_array(arr, "arr");
 
-var str = arr.join(" = ");
+var str = arr.join(" = "); // join함수로 arr를 불러옴 
 document.write("<br/> after join: <br/>");
 document.write("str: \"" + str + "\"<br/>");
+*/
+/*
+var index = "홈페이지 ", name ="모바일 웹";
+var start = 0, end = 100.0;
+var b= "3", a =2;
+c = a+b;
+d = b+a;
+document.write(index+"<br/>"); 
+document.write(name+"<br/>");
+document.write(c+"<br/>");
+document.write(d+"<br/>");
+*/
+/*
+var title1 = "상지대학교";
+var title2 = "정보통신공학과";
+var title3 ="멀티미디어시스템";
 
+document.write("<caption> 교과목 명 </caption>");
+document.write("<tr>");
+document.write("<th> 순위 </th>");
+document.write("<th> 제목 </th>");
+document.write("</tr>");
+document.write("<tr> <td> 1 </td> <td> " + title1 + "</td> </tr>");
+document.write("<tr> <td> 2 </td> <td> " + title2 + "</td> </tr>");
+document.write("<tr> <td> 3 </td> <td> " + title3 + "</td> </tr>");
+*/
+/*
+alert("html5 프로그래밍 \n웹 사이트로 이동합니다.");
+*/
+/*
+var answer =confirm("결제하시겠습니까");
+document.write("answer = " + answer + "<br/>");
+*/
+/*
+var answer = prompt("책 제목 입력",);
+var num = prompt("수량 입력",);
+var price = prompt("가격 입력",);
+document.write("책 제목 =" + answer + "<br/>");
+document.write("수량 : " + num + "<br/>");
+document.write("가격 : " + price+ "<br/>");
+document.write("합계 : " + price*num + "<br/>");
+*/
+/*
+var str = "<table border = '1'>";
+str += "<tr>";
+str += "<td>1</td><td>2</td><td>3</td>";
+str+= "</tr>"
+str += "</table>";
+document.write(str);
+*/
 
+var height = prompt("신장 : ");
+var weight = prompt("kg : ");
+var bmi = (height - 100) * 0.9;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.write("신장 : " + height + "(cm) <br/>");
+document.write("체중 : " + weight + "(kg) <br/>");
+document.write("적정체중 = " + bmi+ "<br/>");
+document.write("결과 : 적정 체중은 "+ bmi + "kg 이며 현재 적정 체중에서 ");
+document.write(weight - bmi +"kg을 초과한 것을 알 수 있습니다.");
 
 
 

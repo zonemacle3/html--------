@@ -1,0 +1,5 @@
+/* 외부 스타일 시트 */
+
+h3{font-style: italic;color: green;}
+p{font-size: 15pt;font-weight: bold;}
+strong{font-style: italic; color: red;text-decoration: underline;}
