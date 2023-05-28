@@ -85,9 +85,10 @@ body{height: 2000px;}
     position: fixed;
     top: 5%;
     left: calc(50% + 50px);
-    transform: translateX(100%);
+    transform: translateX(10%);
     z-index: 20;
     opacity: 0.8;
+    
 }
 
 
@@ -96,9 +97,9 @@ body{height: 2000px;}
 .sidebanner {
     position: fixed;
     top:-150%;
-    width: 20px; /* 원하는 너비로 조정하세요 */
+    width: 40px; /* 원하는 너비로 조정하세요 */
     left: calc(200% + 10px);
-    transform: translateX(270%);
+    transform: translateX(200%);
     z-index: 6;
 }
 #btn{
