@@ -16,6 +16,7 @@
     position: relative;
     top: -60px;
     left: 10px;
+    
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
 
@@ -64,8 +65,7 @@ ul.main2 li{
 margin-top:55px;}
 
     #main4{font-family:Arial,"Lucida Sans",sans-serif;font-size:2em;width:34%;
-        margin-bottom:0px;margin-left:15px;padding-bottom:10px;border-bottom:4px solid black;
-    position: relative;
+        margin-bottom:0px;margin-left:15px;padding-bottom:10px;border-bottom:4px solid black;position: relative;
 right: -530px;
 top: -230px;}
 
@@ -327,7 +327,7 @@ hr:after {
     color: #004851;
     font-family: lucida Bright;
     position: relative;
-    right: -240px;
+    right: -200px;
     top: -160px;
 }
 
@@ -335,8 +335,8 @@ hr:after {
     color: #004851;
     font-family: lucida Bright;
     position: relative;
-    right: -400px;
-    top: -187px;
+    right: -330px;
+    top: -278px;
 }
 
 
@@ -344,8 +344,8 @@ hr:after {
     color: #004851;
     font-family: lucida Bright;
     position: relative;
-    right: -560px;
-    top: -218px;
+    right: -460px;
+    top: -395px;
 }
 
 
@@ -353,6 +353,34 @@ hr:after {
     color: #004851;
     font-family: lucida Bright;
     position: relative;
-    right: -720px;
-    top: -245px;
+    right: -660px;
+    top: -515px;
+}
+
+#li1{
+    position: relative;
+    top: 25px;    
+    margin-top: 5px;
+}
+
+#li2{
+    position: relative;
+    top: 25px;    
+    margin-top: 5px;
+}
+
+#li3{
+    position: relative;
+    top: 25px;    
+    margin-top: 5px;
+}
+
+#li4{
+    position: relative;
+    top: 25px;    
+    margin-top: 5px;
+}
+
+#price1{
+    
 }

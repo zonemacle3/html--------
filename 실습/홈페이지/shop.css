@@ -1,0 +1,106 @@
+
+h1{
+    font-family: 'Cyberpunk Is Not Dead', sans-serif;
+    text-align: center;
+    text-shadow: -1px 0px black, 5px 1px greenyellow, 1px 3px greenyellow, 2px -1px black;
+}
+
+
+#menu{
+    margin-left: 340px;
+    height: 50px;
+    width: 800px;
+}
+
+#menu ul li{
+    list-style: none;
+    color: white;
+    background-color: black;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#menu .topmenu{
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    color: white;
+    width: 150px;
+}
+
+#itm{
+    margin-left: 340px;
+    height: 50px;
+    width: 800px;
+    z-index: 5;
+}
+
+#itm ul li{
+    list-style: none;
+    color: white;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: -32px;
+    z-index: 4;
+}
+
+#itm .pro{
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    color: white;
+    width: 150px;
+    z-index: 3;
+}
+
+#popup{
+    background-color: rosybrown;
+    position: absolute;
+    width: 758px;
+    align-items: center;
+    text-align: center;
+    height: 32px;
+    color: white;
+    
+}
+
+.product1{
+    text-align: center;
+    margin-left: 340px;
+    height: 50px;
+    width: 800px;
+  }
+
+  #pro1{
+    position: relative;
+    top: 200px;
+  }
+  
+  #pro1{
+    font-size: 20px; 
+  }
+
+  #pro1 td{
+    color: darkred;
+  }
+  
+  #pro1 table{
+    position: relative;
+    top: -200px;
+    left: 50px;
+    border-spacing: 10px;
+    border: 1px solid black;
+  }
+
+ #pro1 tr td{
+    border: 1px solid black;
+    width : 134px
+ }
+  
+
